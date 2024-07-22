@@ -1,0 +1,19 @@
+{
+	"connection_key": "requests",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 1001,
+	"service_label": "ARTICLE",
+	"api_type": "deletes",
+	"Article": {
+		"Article": 265,
+		"IsMarkedForDeletion": true
+	},
+	"api_schema": "DPFMArticleDeletes",
+	"accepter": [
+		"Header"
+	]
+}

@@ -1,0 +1,63 @@
+{
+  "connection_key": "requests",
+  "result": true,
+  "redis_key": "abcdefg",
+  "filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+  "api_status_code": 200,
+  "runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+  "business_partner": 101,
+  "service_label": "ORDERS",
+  "api_type": "cancels",
+  "message": {
+    "Header": {
+      "OrderID": 265,
+      "HeaderDeliveryStatus": null,
+      "IsCancelled": true
+    },
+    "Item": [
+      {
+        "OrderID": 265,
+        "OrderItem": 1,
+        "ItemDeliveryStatus": null,
+        "IsCancelled": true
+      }
+    ],
+    "ScheduleLine": [
+      {
+        "OrderID": 265,
+        "OrderItem": 1,
+        "ScheduleLine": 1,
+        "Product": "A3750",
+        "StockConfirmationBusinessPartner": 102,
+        "StockConfirmationPlant": "AB02",
+        "StockConfirmationPlantBatch": "A001",
+        "ConfirmedOrderQuantityByPDTAvailCheckInBaseUnit": 20,
+        "IsCancelled": true,
+        "IsMarkedForDeletion": false
+      }
+    ],
+    "ProductStock": [
+      {
+        "Product": "A3750",
+        "BusinessPartner": 102,
+        "Plant": "AB02",
+        "Batch": "A001",
+        "ProductStockAvailabilityDate": "2023-02-15",
+        "AvailableProductStock": 516
+      }
+    ]
+  },
+  "api_schema": "DPFMOrdersCancels",
+  "accepter": [
+    "Header"
+  ],
+  "deleted": false,
+  "sql_update_result": null,
+  "sql_update_error": "",
+  "subfunc_result": null,
+  "subfunc_error": "",
+  "exconf_result": null,
+  "exconf_error": "",
+  "api_processing_result": true,
+  "api_processing_error": ""
+}
